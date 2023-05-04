@@ -1,0 +1,16 @@
+body{
+    background-image: linear-gradient(to right, rgb(220, 20, 20),rgb(71, 17, 17));
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box{
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    border-radius: 15px;
+    width:30%;
+}
