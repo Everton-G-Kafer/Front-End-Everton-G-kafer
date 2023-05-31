@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img id="logo" src="Logotipo1.png" alt="logo">
+        <h1 class="titulo-principal">Agenda</h1>
+    </header>
+    <main>
+        <form>
+            <label for="nomesobrenome">Nome e Sobrenome</label>
+            <input type="text" name="nome" id="nomesobrenome" class="input-padrao" placeholder="Nome e sobrenome" required>
+            <br><br>
+
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" class="input-padrao" placeholder="seuemail@dominio.com" required>
+            <br><br>
+
+            <label for="numero">Número</label>
+            <input type="number" name="numero" id="numero" class="input-padrao" placeholder="(XX) XXX-XXXX" required>
+            <br><br>
+
+            <label for="mensaagem">Mensagem</label>
+            <textarea cols="70" rows="10" id="mensagem" placeholder="Digite seu texto aqui!" required></textarea>
+
+            <section>
+                <p>Como prefer nosso contato?</p>
+
+                <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+
+                <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+
+                <label for="radio-zap"><input type="radio" name="contato" value="zap" id="radio-zap" checked>Zap-Zap</label>
+            </section>
+
+            <section>
+                <p>Qual horário prefere o atendimento?</p>
+                <select>
+                    <option>Manhã</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
+            </section>
+
+            <label class="checkbox">
+            <input type="checkbox">Gostaria de receber nossas novidades por email?</label>
+
+            <input type="submit" value="Enviar formulario" class="enviar">
+        </form>
+    </main>
+
+    <footer>
+        <img id="logo" src="Logotipo1.png">
+        <p class="copyright">&copy; Copyright -- Ever</p>
+    </footer>
+</body>
+</html>
