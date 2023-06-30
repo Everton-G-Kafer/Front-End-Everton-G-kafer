@@ -1,0 +1,15 @@
+body{
+    font-family:'PressStart2P';
+}
+
+@font-face {
+    font-family:'PressStart2P';
+    src: url(PressStart2P-Regular.ttf) format('truetype')
+}
+
+header{
+    background-image: url(../image/ceunght.png);
+    font-size: large;
+    display:flex;
+    text-align:end;
+}
