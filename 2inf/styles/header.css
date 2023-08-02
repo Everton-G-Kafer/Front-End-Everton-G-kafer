@@ -1,0 +1,27 @@
+.cabecalho{
+    background-color: var(--cor-cab);
+}
+.conteiner{
+    display: flex;
+    align-items: center;
+}
+.conteiner_img, .conteiner_tit, .conteiner_frase{
+    padding: 1em;
+}
+.conteiner_tit, .conteiner_frase{
+    display: none;;
+}
+@media screen and (min-width:820px){
+    .conteiner_tit, .conteiner_tit-negrito{
+        font-size: 30px;
+    }
+    .conteiner_tit{
+        display: block;
+    }
+}
+@media screen and (min-width:1024px) {
+    .conteiner_frase{
+        display: block;
+        font-size: 20px;
+    }
+}

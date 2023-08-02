@@ -1,0 +1,12 @@
+@import url(styles/header.css);
+:root{
+    --cor-de-fundo:rgb(36, 165, 220);
+    --cor-cab:white;
+}
+body{
+    background-color: var(--cor-de-fundo);
+    margin: 0;
+}
+h1{
+    font-weight: normal;
+}
