@@ -1,0 +1,99 @@
+body {
+    background-size: cover;
+}
+.ha {
+    margin-left: 900px;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(131, 55, 1);
+    margin-top: 20px;
+    -webkit-text-stroke: 0.5px rgb(125, 125, 125);
+}
+.h1 {
+    margin-left: 775px;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(131, 55, 1);
+    margin-top: 60px;
+    -webkit-text-stroke: 0.5px rgb(127, 127, 127);
+}
+.img {
+    width: 140px;
+}
+.imgre {
+    width: 140px;
+    height: 153px;
+    
+}
+.imgsol {
+    width: 140px;
+    
+}
+.cradado_btn {
+    background: rgba(99, 36, 1, 0.481);
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 735px;
+    margin-right: 135px;
+    height: 400px;
+}
+.btn_do {
+    cursor: pointer;
+    background-color: rgba(209, 209, 209, 0.93);
+    height: 165px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.btn_re {
+    cursor: pointer;
+    background-color: rgba(209, 209, 209, 0.93);
+    height: 165px;
+    border-radius: 5px;
+    padding-top: 11px;
+    margin-left: 5px;
+}
+.btn_mi {
+    cursor: pointer;
+    background-color: rgba(209, 209, 209, 0.93);
+    height: 165px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+.btn_fa {
+    cursor: pointer;
+    background-color: rgba(209, 209, 209, 0.93);
+    height: 165px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+.btn_sol {
+    cursor: pointer;
+    background-color: rgba(209, 209, 209, 0.93);
+    height: 165px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+.btn_la {
+    cursor: pointer;
+    background-color: rgba(209, 209, 209, 0.93);
+    height: 165px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 5px;
+}.btn_si {
+    cursor: pointer;
+    background-color: rgba(209, 209, 209, 0.93);
+    height: 165px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+.btn:active {
+    background-color: rgba(124, 124, 124, 0.93);
+    border: 4px rgba(124, 124, 124, 0.93);
+    box-shadow: 3px 3px 3px rgba(74, 74, 74, 0.93) inset;
+  }
