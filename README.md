@@ -3,4 +3,4 @@
 
 🗃️ Meu email de contato é "everton.kafer@escola.pr.gov.br".
 
-📘 Estou em busca de aprende novas linguagens!
+📘 Estou em busca de aprender novas linguagens!
