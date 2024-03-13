@@ -1,0 +1,350 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0zNzNiYXRjaDEzLTA4Ni5qcGc.jpg);
+    
+    background-size: cover;
+}
+
+.h1index{
+    margin-top: 3%;
+    color: rgb(2, 2, 237);
+    text-align: center;
+    font-size: 40px;
+}
+
+.divbtn{
+    background-color: rgba(0, 0, 255, 0.286);
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 50px;
+    margin-top: 5%;
+}
+
+.quadro{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(59, 55, 255, 0.5);
+    padding: 70px;
+    border-radius: 200px;
+}
+
+.h1php{
+    font-size: 35px;
+    
+}
+
+.pphp{
+    font-size: 20px;
+}
+
+.nacphp{
+    font-size: 18px;
+}
+
+.inputnumero{
+    background-color: rgba(42, 40, 181, 0.5);
+    border-color: black;
+    border-radius: 20px;
+    width: 250px;
+    height: 20px;
+    font-size: 20px;
+}
+
+.radio1{
+    width: 30px;
+    cursor: pointer;
+}
+
+
+.divphp{
+    font-size: 20px;
+}
+
+.btncalc{
+    background-color: rgba(42, 40, 181, 0.5);
+    border-color: black;
+    padding: 7px 15px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.aa{
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 45%;
+}
+
+
+
+.abs{
+
+    margin-top: 5%;
+
+    margin-left: 13%;
+
+    padding: 17px 62px;
+
+    background-color: #007bff; /* Cor de fundo do botão */
+
+    color: #fff; /* Cor do texto no botão */
+
+    text-decoration: none; /* Remova sublinhado de links */
+
+    border: none; /* Remova a borda do botão */
+
+    border-radius: 5px; /* Cantos arredondados */
+
+    font-size: 20px; /* Tamanho da fonte */
+
+    text-align: center;
+
+    cursor: pointer; /* Mude o cursor para uma mão quando passar o mouse */
+}
+
+.base{
+
+    padding: 17px 48px;
+
+    background-color: #007bff; /* Cor de fundo do botão */
+
+    color: #fff; /* Cor do texto no botão */
+
+    text-decoration: none; /* Remova sublinhado de links */
+
+    border: none; /* Remova a borda do botão */
+
+    border-radius: 5px; /* Cantos arredondados */
+
+    font-size: 20px; /* Tamanho da fonte */
+
+    text-align: center;
+
+    cursor: pointer; /* Mude o cursor para uma mão quando passar o mouse */
+}
+
+.hypot{
+
+    padding: 17px 75px;
+
+    background-color: #007bff; /* Cor de fundo do botão */
+
+    color: #fff; /* Cor do texto no botão */
+
+    text-decoration: none; /* Remova sublinhado de links */
+
+    border: none; /* Remova a borda do botão */
+
+    border-radius: 5px; /* Cantos arredondados */
+
+    font-size: 20px; /* Tamanho da fonte */
+
+    text-align: center;
+
+    cursor: pointer; /* Mude o cursor para uma mão quando passar o mouse */
+}
+
+.intdiv{
+
+    margin-top: 1%;
+
+    margin-left: 13%;
+
+    padding: 17px 62px;
+
+    background-color: #007bff; /* Cor de fundo do botão */
+
+    color: #fff; /* Cor do texto no botão */
+
+    text-decoration: none; /* Remova sublinhado de links */
+
+    border: none; /* Remova a borda do botão */
+
+    border-radius: 5px; /* Cantos arredondados */
+
+    font-size: 20px; /* Tamanho da fonte */
+
+    text-align: center;
+
+    cursor: pointer; /* Mude o cursor para uma mão quando passar o mouse */
+}
+
+.min{
+
+    padding: 17px 72px;
+
+    background-color: #007bff; /* Cor de fundo do botão */
+
+    color: #fff; /* Cor do texto no botão */
+
+    text-decoration: none; /* Remova sublinhado de links */
+
+    border: none; /* Remova a borda do botão */
+
+    border-radius: 5px; /* Cantos arredondados */
+
+    font-size: 20px; /* Tamanho da fonte */
+
+    text-align: center;
+
+    cursor: pointer; /* Mude o cursor para uma mão quando passar o mouse */
+}
+
+.max{
+
+    padding: 17px 75px;
+
+    background-color: #007bff; /* Cor de fundo do botão */
+
+    color: #fff; /* Cor do texto no botão */
+
+    text-decoration: none; /* Remova sublinhado de links */
+
+    border: none; /* Remova a borda do botão */
+
+    border-radius: 5px; /* Cantos arredondados */
+
+    font-size: 20px; /* Tamanho da fonte */
+
+    text-align: center;
+
+    cursor: pointer; /* Mude o cursor para uma mão quando passar o mouse */
+}
+
+.pi{
+
+    margin-top: 1%;
+
+    margin-left: 13%;
+
+    padding: 17px 115px;
+
+    background-color: #007bff; /* Cor de fundo do botão */
+
+    color: #fff; /* Cor do texto no botão */
+
+    text-decoration: none; /* Remova sublinhado de links */
+
+    border: none; /* Remova a borda do botão */
+
+    border-radius: 5px; /* Cantos arredondados */
+
+    font-size: 20px; /* Tamanho da fonte */
+
+    text-align: center;
+
+    cursor: pointer; /* Mude o cursor para uma mão quando passar o mouse */
+}
+
+.pow{
+
+    padding: 17px 22px;
+
+    background-color: #007bff; /* Cor de fundo do botão */
+
+    color: #fff; /* Cor do texto no botão */
+
+    text-decoration: none; /* Remova sublinhado de links */
+
+    border: none; /* Remova a borda do botão */
+
+    border-radius: 5px; /* Cantos arredondados */
+
+    font-size: 20px; /* Tamanho da fonte */
+
+    text-align: center;
+
+    cursor: pointer; /* Mude o cursor para uma mão quando passar o mouse */
+}
+
+.sin{
+
+    padding: 17px 102px;
+
+    background-color: #007bff; /* Cor de fundo do botão */
+
+    color: #fff; /* Cor do texto no botão */
+
+    text-decoration: none; /* Remova sublinhado de links */
+
+    border: none; /* Remova a borda do botão */
+
+    border-radius: 5px; /* Cantos arredondados */
+
+    font-size: 20px; /* Tamanho da fonte */
+
+    text-align: center;
+
+    cursor: pointer; /* Mude o cursor para uma mão quando passar o mouse */
+}
+
+.cos{
+
+    margin-top: 1%;
+
+    margin-left: 13%;
+
+    padding: 17px 85px;
+
+    background-color: #007bff; /* Cor de fundo do botão */
+
+    color: #fff; /* Cor do texto no botão */
+
+    text-decoration: none; /* Remova sublinhado de links */
+
+    border: none; /* Remova a borda do botão */
+
+    border-radius: 5px; /* Cantos arredondados */
+
+    font-size: 20px; /* Tamanho da fonte */
+
+    text-align: center;
+
+    cursor: pointer; /* Mude o cursor para uma mão quando passar o mouse */
+}
+
+.tan{
+
+    padding: 17px 85px;
+
+    background-color: #007bff; /* Cor de fundo do botão */
+
+    color: #fff; /* Cor do texto no botão */
+
+    text-decoration: none; /* Remova sublinhado de links */
+
+    border: none; /* Remova a borda do botão */
+
+    border-radius: 5px; /* Cantos arredondados */
+
+    font-size: 20px; /* Tamanho da fonte */
+
+    text-align: center;
+
+    cursor: pointer; /* Mude o cursor para uma mão quando passar o mouse */
+}
+
+.sqrt{
+
+    padding: 17px 59px;
+
+    background-color: #007bff; /* Cor de fundo do botão */
+
+    color: #fff; /* Cor do texto no botão */
+
+    text-decoration: none; /* Remova sublinhado de links */
+
+    border: none; /* Remova a borda do botão */
+
+    border-radius: 5px; /* Cantos arredondados */
+
+    font-size: 20px; /* Tamanho da fonte */
+
+    text-align: center;
+
+    cursor: pointer; /* Mude o cursor para uma mão quando passar o mouse */
+}
